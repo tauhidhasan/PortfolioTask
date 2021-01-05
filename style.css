@@ -6,12 +6,12 @@ body {
 
 }
 
+
+
 /*Protfolio Menu Section Style Start*/
 .navbar {
-    width: 100%;
     padding: 30px 0;
     padding-left: 70%;
-
 
 }
 
@@ -23,15 +23,21 @@ body {
     margin-left: 25px;
 }
 
+.about1 {
+    height: 550px;
+}
+
+.about2 {
+    height: 550px;
+}
+
 /*Protfolio Menu Section Style Start*/
 
 .half-width {
     width: 40%;
     float: left;
-    margin: 3%;
-    padding: 2%;
-    height: 500px;
-
+    margin-left: 5%;
+    padding-left: 2%;
 
 }
 
@@ -50,7 +56,7 @@ h1 {
 }
 
 .half-width img {
-    width: 100%;
+    width: 80%;
 }
 
 .button-url {
@@ -63,7 +69,40 @@ h1 {
 
 }
 
+.project-work {
+    background-color: #F8F9FC;
+    height: 750px;
+    margin: auto;
+}
+
 .project-heading {
     width: 100%;
     text-align: center;
+
+
+
+}
+
+
+.project-grid {
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.project-grid .item {
+    width: 30%;
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+
+}
+
+.project-grid .item img {
+    width: 100%;
+    height: auto;
 }
