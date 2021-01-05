@@ -25,10 +25,6 @@ section {
 .navbar .menu li {
     list-style: none;
     display: inline-block;
-}
-
-.navbar .menu li a {
-    display: block;
     color: rgb(12, 3, 3);
     font-size: 16px;
     margin-left: 25px;
