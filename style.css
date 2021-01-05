@@ -1,11 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -27,15 +24,14 @@ body {
 }
 
 /*Protfolio Menu Section Style Start*/
-.about-content {
-    width: 100%;
-}
 
 .half-width {
-    width: 30%;
+    width: 40%;
     float: left;
-    margin: 5%;
-    padding: 5%;
+    margin: 3%;
+    padding: 2%;
+    height: 500px;
+
 
 }
 
@@ -43,7 +39,7 @@ body {
     color: #FF8367;
 }
 
-.half-width h1 {
+h1 {
     font-size: 60px;
     text-transform: uppercase;
 }
@@ -55,4 +51,19 @@ body {
 
 .half-width img {
     width: 100%;
+}
+
+.button-url {
+    background-image: linear-gradient(45deg, #ffa07a, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+
+
+}
+
+.project-heading {
+    width: 100%;
+    text-align: center;
 }
