@@ -35,6 +35,7 @@ p {
     height: 550px;
 }
 
+
 /*Protfolio Menu Section Style Start*/
 
 .half-width {
@@ -61,18 +62,22 @@ h1 {
     color: rgb(156, 161, 161);
 }
 
+
 .half-width img {
     width: 80%;
 }
 
+
+
 .button-url {
     background-image: linear-gradient(45deg, #ffa07a, tomato);
-    padding: 15px 20px;
+    padding: 11px 30px;
     border-radius: 5px;
     color: white;
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 
 
 }
