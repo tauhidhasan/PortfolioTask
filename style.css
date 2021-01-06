@@ -42,6 +42,7 @@ p {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    line-height: 23px;
 
 }
 
@@ -57,6 +58,7 @@ h1 {
 .half-width p {
     text-align: justify;
     font-size: 18px;
+    color: rgb(156, 161, 161);
 }
 
 .half-width img {
@@ -65,7 +67,7 @@ h1 {
 
 .button-url {
     background-image: linear-gradient(45deg, #ffa07a, tomato);
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 600;
@@ -114,6 +116,10 @@ h1 {
 .project-grid .item img {
     width: 100%;
     height: auto;
+}
+
+.project-grid .item p {
+    color: rgb(156, 161, 161);
 }
 
 .services {
@@ -194,6 +200,11 @@ h1 {
 .contact-content h1 {
     font-size: 30px;
     text-transform: lowercase;
+}
+
+.contact-content h2 {
+    text-transform: uppercase;
+    color: rgb(191, 194, 194);
 }
 
 .icon img {
