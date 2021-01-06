@@ -79,17 +79,21 @@ h1 {
     background-color: #F8F9FC;
     height: 750px;
     margin: auto;
+    padding-bottom: 120px;
 }
 
 .project-heading {
     width: 100%;
     text-align: center;
+    padding-top: 100px;
+
 }
 
 
 .project-grid {
     max-width: 1400px;
     margin: 100px;
+
 
 }
 
@@ -101,6 +105,8 @@ h1 {
     margin-left: 25px;
     box-sizing: border-box;
     border-radius: 30px;
+    box-shadow: 10px 10px 40px rgb(202, 198, 198);
+
 
 
 }
@@ -156,7 +162,7 @@ h1 {
 .content-box {
     width: 60%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
     overflow: hidden;
     background: url("images/button-box.png");
     background-repeat: no-repeat;
@@ -167,11 +173,13 @@ h1 {
 .content-box h1 {
     float: left;
     color: azure;
+    margin-left: 5%;
 }
 
 .content-box a {
     float: right;
     margin-top: 75px;
+    margin-right: 5%;
 
 
 }
