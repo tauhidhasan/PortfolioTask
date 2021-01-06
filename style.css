@@ -7,6 +7,9 @@ body {
 }
 
 
+p {
+    text-align: justify;
+}
 
 /*Protfolio Menu Section Style Start*/
 .navbar {
