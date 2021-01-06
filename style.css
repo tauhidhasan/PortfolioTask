@@ -149,17 +149,21 @@ h1 {
     max-width: 1400px;
     margin: auto;
 
+
 }
 
 .services-grid .services-item {
     width: 30%;
-    background: #FF8367;
+    background: white;
     display: inline-block;
-    padding: 20px;
+    padding: 2%;
     margin-left: 25px;
     box-sizing: border-box;
-    border-radius: 30px;
-    box-shadow: 7px 5px 5px grey;
+    border-radius: 17px;
+    box-shadow: 3px 3px 19px -10px grey;
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, blue, tomato);
+    border-image-slice: 1;
 }
 
 .services-grid .services-item img {
