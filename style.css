@@ -67,6 +67,7 @@ h1 {
     color: white;
     font-weight: 600;
     text-decoration: none;
+    display: inline-block;
 
 
 }
@@ -85,7 +86,7 @@ h1 {
 
 .project-grid {
     max-width: 1400px;
-    margin: auto;
+    margin: 100px;
 
 }
 
@@ -146,41 +147,28 @@ h1 {
 }
 
 .inquery {
-    padding: 100px 100px;
-
+    height: 400px;
 }
 
-.inquery-box {
-
-    margin: 0 auto;
-    max-width: 70%;
-    height: 200px;
-
-    border-radius: 25px;
-
-}
-
-#inquery-background {
-
-    background: url('images/button-box.png');
-    background-size: cover;
-}
-
-.inquery-heading {
-    padding-top: 1%;
-    padding-left: 2%;
-
-
-}
-
-.inquery-heading h1 {
-    color: #FFFFFF;
+.content-box {
     width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: hidden;
+    background: url("images/button-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35px;
 }
 
-#inquery-btn {
-    margin: 0 auto;
+.content-box h1 {
+    float: left;
+    color: azure;
+}
+
+.content-box a {
     float: right;
-    display: inline-block;
+    margin-top: 75px;
+
 
 }
