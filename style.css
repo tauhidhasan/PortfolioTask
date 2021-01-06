@@ -27,6 +27,9 @@ p {
     font-weight: bold;
 }
 
+/*Protfolio Menu Section Style End*/
+
+/*Protfolio About Section Style Start*/
 .about1 {
     height: 550px;
 }
@@ -36,7 +39,7 @@ p {
 }
 
 
-/*Protfolio Menu Section Style Start*/
+
 
 .half-width {
     width: 40%;
@@ -82,6 +85,8 @@ h1 {
 
 }
 
+/*Protfolio About Section Style End*/
+/*Protfolio Project Work Section Style Start*/
 .project-work {
     background-color: #F8F9FC;
     height: 750px;
@@ -127,6 +132,9 @@ h1 {
     color: rgb(156, 161, 161);
 }
 
+/*Protfolio Project Work Section Style End*/
+
+/*Protfolio Our Services Section Style Start*/
 .services {
     padding: 100px 100px;
     margin: auto;
@@ -166,6 +174,9 @@ h1 {
     text-align: center;
 }
 
+/*Protfolio Our Services Section Style End*/
+
+/*Protfolio Inquery  Section Style Start*/
 .inquery {
     height: 300px;
 }
@@ -195,6 +206,9 @@ h1 {
 
 }
 
+/*Protfolio Inquery  Section Style End*/
+
+/*Protfolio Contact  Section Style Start*/
 .contact-content {
     text-align: center;
     line-height: 15px;
@@ -218,6 +232,9 @@ h1 {
     padding: 5px;
 }
 
+/*Protfolio Contact  Section Style End*/
+
+/*Protfolio Footer  Section Style Start*/
 footer {
     text-align: center;
     font-weight: bold;
@@ -225,3 +242,5 @@ footer {
     background: linear-gradient(to right, #fc4a1a, #f7b733);
 
 }
+
+/*Protfolio Footer  Section Style End*/
